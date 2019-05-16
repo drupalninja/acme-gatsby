@@ -1,0 +1,16 @@
+// Fonts
+
+@mixin font-stack-base {
+  font-family: 'Neue Haas Grotesk W01 Disp', 'Arial', sans-serif;
+}
+
+@mixin font-stack-secondary {
+  font-family: 'Neue Haas Grotesk W01', 'Arial', sans-serif;
+}
+
+@mixin font-stack-tertiary {
+  font-family: 'Minion W01', 'Georgia', serif;
+}
+
+$font-weight-bold: bold;
+$font-italic: italic;

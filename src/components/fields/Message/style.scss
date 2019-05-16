@@ -1,0 +1,36 @@
+@import 'src/global/utils/init';
+
+.messages {
+  background-color: $color-light-green;
+  background-image: url('./assets/check.svg');
+  background-position: 10px 20px;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  border: 1px solid $color-green;
+  box-shadow: -8px 0 0 $color-green;
+  color: $color-black;
+  font-weight: 500;
+  margin: 10px 0;
+  padding: 16px 45px;
+
+  /**
+   * Changes background color to yellow/beige.
+   */
+  &.messages--warning {
+    background-color: $color-beige;
+    background-image: url('./assets/warning.svg');
+    color: $color-brown;
+    box-shadow: -8px 0 0 $color-brown;
+    border-color: $color-brown;
+  }
+
+  /**
+   * Changes background color to red.
+   */
+  &.messages--error {
+    background-color: $color-pink;
+    background-image: url('./assets/error.svg');
+    border-color: $color-red;
+    box-shadow: -8px 0 0 $color-orange;
+  }
+}

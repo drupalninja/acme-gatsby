@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-starter-rain",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby and the Rain distribution of Drupal 8.",
+  "version": "0.1.0",
+  "author": "Mark Casias <mark.casias@mediacurrent.com>",
+  "dependencies": {
+    "@types/googlemaps": "^3.30.20",
+    "@types/markerclustererplus": "^2.1.33",
+    "breakpoint-sass": "^2.7.1",
+    "classnames": "^2.2.6",
+    "dotenv": "^7.0.0",
+    "gatsby": "^2.4.6",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-source-drupal": "^3.1.7",
+    "gatsby-source-filesystem": "^2.0.35",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "html-react-parser": "^0.7.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.1",
+    "react-slick": "^0.24.0",
+    "react-uid": "^2.2.0",
+    "singularitygs": "^1.8.0",
+    "slick-carousel": "^1.8.1",
+    "svg-sprite-loader": "^4.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "keywords": [
+    "gatsby",
+    "drupal"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/mediacurrent/mis_gatsby_rain"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

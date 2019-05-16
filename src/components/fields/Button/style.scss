@@ -1,0 +1,18 @@
+// Import site utilities.
+@import 'src/global/utils/init';
+
+.button {
+  margin: 20px auto;
+  background-color: $color-blue;
+  border: none;
+  color: $color-white;
+  padding: 10px 15px;
+  position: relative;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-blue;
+    border: 1px solid $color-blue;
+  }
+}
